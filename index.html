@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="index-bg">
+        <div class="content" id="a">
+            <div class="text">
+                勿要外传
+            </div>
+            <div class="btn" id="a-btn">
+                点击获取今年运势
+            </div>
+        </div>
+        <div class="content show-false" id="b">
+            <div class="text">
+                
+            </div> 
+        </div>
+    </div>
+    <script>
+        let a = document.getElementById('a')
+        let b = document.getElementById('b')
+        let btn = document.getElementById('a-btn')
+        btn.addEventListener('click',()=>{
+            a.style= 'display: none;'
+            b.style= 'display:block'
+        })
+    </script>
+</body>
+
+</html>
