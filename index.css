@@ -10,27 +10,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: './a.jpg';
+    background-size: 100% 100%;
+    background-attachment: fixed
 }
-.content{
+
+.content {
     height: 100px;
     width: 200px;
     position: fixed;
 }
-.content.show-false{ 
+
+.content.show-false {
     display: none;
 }
 
-.text{
+.text {
     text-align: center;
 }
-.btn{
-    margin:40px 0;
-    height:60px;
-    width:200px;
+
+.btn {
+    margin: 40px 0;
+    height: 60px;
+    width: 200px;
     line-height: 60px;
     text-align: center;
-    border:1px black solid;
+    border: 1px black solid;
     border-radius: 5px;
-    font-size:18px;
+    font-size: 18px;
 }
- 
